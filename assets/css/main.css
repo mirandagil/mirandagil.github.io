@@ -1,0 +1,43 @@
+body { margin: 0; color: white; background-color: black; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+#particles-js { height: 100%; }
+
+.gil-landing { background-color: #4A5056; }
+
+.gil-landing h1, .gil-landing h3, .gil-socials { position: absolute; margin: 0 auto; width: 100%; }
+
+.gil-landing h1 { top: 30%; }
+
+.gil-landing h3 { top: 45%; }
+
+.gil-socials { top: 55%; }
+
+.gil-socials a { color: #FCF4DB; font-size: 1.5em; margin-right: .5em; }
+
+.gil-socials a:hover { color: #fff; }
+
+.gil-landing h1 { color: #D3D3D3; color: #FCF4DB; font-size: 3em; font-family: 'Playfair Display'; font-weight: 400; text-transform: uppercase; overflow: hidden; padding: 0 0 10px; }
+
+.gil-landing h1 span { display: inline-block; position: relative; -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg); transform: perspective(1000px) rotate3d(0, 1, 0, 0deg); -webkit-transition: -webkit-transform 0.5s, color 0.5s, background-color 0.5s; transition: transform 0.5s, color 0.5s,background-color 0.9s; cursor: default; }
+
+.gil-landing h1:hover span { color: #8A4065; background-color: #FCF4DB; -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg); transform: perspective(1000px) rotate3d(0, 1, 0, 360deg); }
+
+.gil-landing h1 span:nth-child(4), .gil-landing h1:hover span:first-child { -webkit-transition-delay: 0s; transition-delay: 0s; }
+
+.gil-landing h1 span:nth-child(3), .gil-landing h1:hover span:nth-child(2) { -webkit-transition-delay: 0.1s; transition-delay: 0.1s; }
+
+.gil-landing h1 span:nth-child(2), .gil-landing h1:hover span:nth-child(3) { -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
+
+.gil-landing h1 span:nth-child(4), .gil-landing h1:hover span:nth-child(5) { -webkit-transition-delay: 0.3s; transition-delay: 0.3s; }
+
+.gil-landing h1 span:nth-child(6), .gil-landing h1:hover span:nth-child(7) { -webkit-transition-delay: 0.4s; transition-delay: 0.4s; }
+
+.gil-landing h1 span:nth-child(8), .gil-landing h1:hover span:nth-child(9) { -webkit-transition-delay: 0.5s; transition-delay: 0.5s; }
+
+.gil-landing h1 span:first-child, .gil-landing h1:hover span:nth-child(10) { -webkit-transition-delay: 0.6s; transition-delay: 0.6s; }
+
+@media (min-width: 1000px) { .gil-landing h1 { color: #FCF4DB; font-size: 4em; } .gil-landing h3 { font-size: 1.5em; } }
+
+@media (max-width: 370px) { .gil-landing h1 { color: #FCF4DB; font-size: 2.5em; } .gil-landing h3 { font-size: 1em; } }
+
+/*# sourceMappingURL=main.css.map */
