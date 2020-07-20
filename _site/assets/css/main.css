@@ -1,4 +1,4 @@
-body { margin: 0; color: white; background-color: black; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+body { margin: 0; color: #FCF4DB; background-color: #4A5056; line-height: 1.6; -webkit-font-smoothing: antialiased; }
 
 #particles-js { height: 100%; }
 
@@ -36,8 +36,20 @@ body { margin: 0; color: white; background-color: black; line-height: 1.6; -webk
 
 .gil-landing h1 span:first-child, .gil-landing h1:hover span:nth-child(10) { -webkit-transition-delay: 0.6s; transition-delay: 0.6s; }
 
+.gil-nav { background-color: #FCF4DB; width: 8em; height: 100vh; }
+
+.gil-nav a { color: #ED9427; padding: 1em; }
+
+.gil-nav .gil-nav-active, .gil-nav a:hover { background-color: #ED9427; color: #FCF4DB; border-radius: 0 50px 50px 0; }
+
+.gil-nav i { position: relative; top: .25em; margin-right: .2em; }
+
 @media (min-width: 1000px) { .gil-landing h1 { color: #FCF4DB; font-size: 4em; } .gil-landing h3 { font-size: 1.5em; } }
 
 @media (max-width: 370px) { .gil-landing h1 { color: #FCF4DB; font-size: 2.5em; } .gil-landing h3 { font-size: 1em; } }
+
+.transition-fade { transition: 1s; opacity: 1; }
+
+html.is-animating .transition-fade { opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */

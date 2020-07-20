@@ -6,8 +6,8 @@ $pallete-5: #8A4065;
 
 body {
     margin: 0;
-    color: white;
-    background-color: black;
+    color: $pallete-2;
+    background-color: $pallete-1;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
@@ -117,6 +117,29 @@ body {
 .gil-landing h1:hover span:nth-child(10) {
 	-webkit-transition-delay: 0.6s;
 	transition-delay: 0.6s;
+}
+
+.gil-nav {
+  background-color: $pallete-2;
+  width: 8em;
+  height: 100vh;
+}
+
+.gil-nav a {
+  color: $pallete-3;
+  padding: 1em;
+}
+
+.gil-nav .gil-nav-active, .gil-nav a:hover {
+  background-color: $pallete-3;
+  color: $pallete-2;
+  border-radius: 0 50px 50px 0;
+}
+
+.gil-nav i {
+  position: relative;
+  top: .25em;
+  margin-right: .2em;
 }
 
 
